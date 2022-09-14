@@ -48,7 +48,7 @@ git clone https://github.com/odoo/odoo --depth 1 --branch 15.0
 ```
 sudo pip3 install -r <path>/requirement.txt
 ```
-You can check it again, just make sure everything's normal
-__"CTRL+ALT+S" >> Project: || name project || >> Python Interpreter__
+You can check it again, just make sure everything's normal <br />
+__"CTRL+ALT+S" >> Project: || project name || >> Python Interpreter__
 
 
