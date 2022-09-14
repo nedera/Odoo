@@ -67,3 +67,12 @@ Last step, link __"|| project name ||/odoo/odoo-bin"__ and __"|| project name ||
 <br />
 <br />
 ![image](https://user-images.githubusercontent.com/93069334/190212073-fd616210-f5e6-4f29-ba73-f3009e86b111.png)
+<br />
+<br />
+<br />
+### ERROR
+module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'
+```
+pip install --upgrade pyOpenSSL
+```
+
