@@ -51,7 +51,7 @@ git clone https://github.com/odoo/odoo --depth 1 --branch 15.0
 ```
 ### Install file requirement.txt or pycharm can do it for you
 ```
-sudo pip3 install -r <path>/requirement.txt
+pip3 install -r <path>/requirement.txt
 ```
 You can check it again, just make sure everything's normal <br />
 __"CTRL+ALT+S" >> Project: || project name || >> Python Interpreter__
