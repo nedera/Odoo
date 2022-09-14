@@ -50,5 +50,20 @@ sudo pip3 install -r <path>/requirement.txt
 ```
 You can check it again, just make sure everything's normal <br />
 __"CTRL+ALT+S" >> Project: || project name || >> Python Interpreter__
-
-
+<br />
+<br />
+![image](https://user-images.githubusercontent.com/93069334/190204212-69587569-5c69-4343-8498-9b19ebf61c22.png)
+<br />
+<br />
+<br />
+Create new folder name conf (odoo/conf), coppy the file name odoo.conf (debian/odoo.conf) and paste it in conf. You can change the name if you want (fill file "odoo.conf" coppy version) 
+<br />
+<br />
+![image](https://user-images.githubusercontent.com/93069334/190202770-589e1d46-2e70-40c6-9444-9a530e1ca09c.png) ![image](https://user-images.githubusercontent.com/93069334/190207739-3c0a58f4-eaff-42ca-9642-69f6f3f3c3f6.png)
+<br />
+<br />
+<br />
+Last step, link __"|| project name ||/odoo/odoo-bin"__ and __"|| project name ||/conf/|| conf file ||__ with __Run >> Edit configuration__ (pycharm)
+<br />
+<br />
+![image](https://user-images.githubusercontent.com/93069334/190212073-fd616210-f5e6-4f29-ba73-f3009e86b111.png)
