@@ -25,7 +25,7 @@ sudo su - postgres -c "createuser -s <database name>"
 sudo su postgres
 -----------------------------------------------------
 psql
-ALTER ROLE odoo13 WITH PASSWORD '<databse password>';
+ALTER ROLE <database name> WITH PASSWORD '<databse password>';
 exit
 -----------------------------------------------------
 ```
