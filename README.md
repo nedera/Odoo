@@ -29,6 +29,11 @@ ALTER ROLE <database name> WITH PASSWORD '<databse password>';
 exit
 -----------------------------------------------------
 ```
+### Install Python 3 and its Dependencies
+```
+sudo apt-get install -y python3-pip
+sudo apt-get install python-dev python3-dev libxml2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential libssl-dev libffi-dev libmysqlclient-dev libjpeg-dev libpq-dev libjpeg8-dev liblcms2-dev libblas-dev libatlas-base-dev
+```
 ### Install Wkhtmltopdf
 ```
 sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
