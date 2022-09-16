@@ -89,3 +89,7 @@ module 'werkzeug.routing' has no attribute 'NumberConverter'
 pip freeze | grep Werkzeug
 pip3 install Werkzeug==0.16.1  
 ```
+Fall install pypsycopg2
+```
+pip install psycopg2-binary
+```
