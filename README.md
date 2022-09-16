@@ -84,4 +84,8 @@ module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'
 ```
 pip install --upgrade pyOpenSSL
 ```
-
+module 'werkzeug.routing' has no attribute 'NumberConverter'
+```
+pip freeze | grep Werkzeug
+pip3 install Werkzeug==0.16.1  
+```
