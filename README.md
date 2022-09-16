@@ -51,7 +51,7 @@ sudo apt-get install git
 ***Let turn on your pycharm on and create a project (venv environment)***
 ### Open terminal on pycharm and clone oddoo15 into pycharm's project
 ```
-git clone https://github.com/odoo/odoo --depth 1 --branch 15.0
+git clone https://github.com/odoo/odoo --depth 1 --branch 15.0 --single-branch .
 ```
 ### Install file requirement.txt or pycharm can do it for you
 ```
