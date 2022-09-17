@@ -94,3 +94,4 @@ Fall install pypsycopg2
 ```
 pip install psycopg2-binary
 ```
+sudo apt install python3.8-distutils
