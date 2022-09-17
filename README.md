@@ -91,9 +91,9 @@ module 'werkzeug.routing' has no attribute 'NumberConverter'
 pip freeze | grep Werkzeug
 pip3 install Werkzeug==0.16.1  
 ```
-Fall install pypsycopg2
+Fall install pypsycopg2 (I got this error when I'm using ubuntu 22.04)
 ```
-pip install psycopg2-binary (I got this error when I'm using ubuntu 22.04)
+pip install psycopg2-binary 
 ```
 ModuleNotFoundError: No module named 'distutils.cmd' (I got this error when I'm using ubuntu 22.04)
 ```
