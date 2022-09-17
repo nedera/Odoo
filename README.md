@@ -1,5 +1,5 @@
 # Install odoo (v15) on a new Ubuntu environment and config with pycharm and vscode
-I recommend using Pyhton 3.8 and ubuntu 20.04 for ignore the errors (but not all of errors). 
+I recommend using Pyhton 3.8 and ubuntu 20.04 for ignore the errors (but not at all). The doc is gonna uupdate when I find an error and solution 
 ### Install Python 3 and its Dependencies
 ```
 sudo apt update && sudo apt upgrade
