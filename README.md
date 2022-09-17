@@ -1,3 +1,5 @@
+# Install odoo (v15) on a new Ubuntu environment and config with pycharm 
+I recommend using Pyhton 3.8 and ubuntu 20.04 for ignore the errors. 
 ### Install Python 3 and its Dependencies
 ```
 sudo apt update
@@ -13,7 +15,6 @@ sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wk
 sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt install -f
 ```
-# Install odoo (v15) on a new Ubuntu environment and config with pycharm 
 
 ### Install pycharm
 _Community version_
