@@ -1,3 +1,17 @@
+### Install Python 3 and its Dependencies
+```
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.8
+sudo apt install python3-pip  wget python3-dev python3-venv python3-wheel libxml2-dev libpq-dev libjpeg8-dev liblcms2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential git libssl-dev libffi-dev libmysqlclient-dev libjpeg-dev libblas-dev libatlas-base-dev -y
+```
+### Install Wkhtmltopdf
+```
+sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
+sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
+sudo apt install -f
+```
 # Install odoo (v15) on a new Ubuntu environment and config with pycharm 
 
 ### Install pycharm
@@ -29,21 +43,7 @@ ALTER ROLE <database name> WITH PASSWORD '<databse password>';
 exit
 -----------------------------------------------------
 ```
-### Install Python 3 and its Dependencies
-```
-sudo apt-get install -y python3-pip
-sudo apt-get install python-dev python3-dev libxml2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential libssl-dev libffi-dev libmysqlclient-dev libjpeg-dev libpq-dev libjpeg8-dev liblcms2-dev libblas-dev libatlas-base-dev
-sudo apt-get install -y npm
-sudo ln -s /usr/bin/nodejs /usr/bin/node
-sudo npm install -g less less-plugin-clean-css
-sudo apt-get install -y node-less
-```
-### Install Wkhtmltopdf
-```
-sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
-sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
-sudo apt install -f
-```
+
 ### Install git
 ```
 sudo apt-get install git
