@@ -85,8 +85,12 @@ Last step, link __"|| project name ||/odoo/odoo-bin"__ and __"|| project name ||
 
 ## Config with VScode
 Step 1: open workspace folder **_odoo_** that you cloned it before. And add extention _python_
-Step 2: **_Run > Add Configuration > python > python file_**, coppy & paste the code below and change _"program", "args"_
+<br />
+<br />
 ![image](https://user-images.githubusercontent.com/93069334/190839177-87be9fcf-affc-462a-806b-d67400750d2e.png)
+<br />
+<br />
+Step 2: **_Run > Add Configuration > python > python file_**, coppy & paste the code below and change _"program", "args"_
 
 code
 ```
@@ -115,6 +119,9 @@ code
     ]
 }
 ```
+![image](https://user-images.githubusercontent.com/93069334/190839596-c52679d7-17d7-42e0-b0e2-d65fe8d9d5d7.png)
+<br />
+<br />
 Step 3: Click **_Run_** and chose your option
 
 ### ERROR
