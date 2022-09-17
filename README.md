@@ -92,9 +92,9 @@ pip3 install Werkzeug==0.16.1
 ```
 Fall install pypsycopg2
 ```
-pip install psycopg2-binary
+pip install psycopg2-binary (I got this error when I'm using ubuntu 22.04)
 ```
-ModuleNotFoundError: No module named 'distutils.cmd'
+ModuleNotFoundError: No module named 'distutils.cmd' (I got this error when I'm using ubuntu 22.04)
 ```
 sudo apt install python3.8-distutils
 ```
