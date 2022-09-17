@@ -94,4 +94,7 @@ Fall install pypsycopg2
 ```
 pip install psycopg2-binary
 ```
+ModuleNotFoundError: No module named 'distutils.cmd'
+```
 sudo apt install python3.8-distutils
+```
