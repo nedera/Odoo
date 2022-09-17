@@ -2,7 +2,7 @@
 I recommend using Pyhton 3.8 and ubuntu 20.04 for ignore the errors. 
 ### Install Python 3 and its Dependencies
 ```
-sudo apt update
+sudo apt update && sudo apt upgrade
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.8
