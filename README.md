@@ -84,8 +84,9 @@ Last step, link __"|| project name ||/odoo/odoo-bin"__ and __"|| project name ||
 <br />
 
 ## Config with VScode
-Step 1: open workspace folder **_odoo_** that you cloned it before
-
+Step 1: open workspace folder **_odoo_** that you cloned it before. And add extention _python_
+Step 2: **_Run > Add Configuration > python > python file_**, coppy & paste the code below and change _"program", "args"__
+![image](https://user-images.githubusercontent.com/93069334/190839177-87be9fcf-affc-462a-806b-d67400750d2e.png)
 
 code
 ```
@@ -100,9 +101,9 @@ code
             "stopOnEntry": false,
             "python":"${command:python.interpreterPath}",
             "console":"integratedTerminal",
-            "program":"/opt/odoo/odoo-bin",
+            "program":"<full path of odoo-bin file>",
             "args": [
-               "--config=/opt/odoo/odoo.conf",
+               "--config=<full path of odoo.conf file>",
             ],
             // "cwd":"${workspaceRoot}",
             "env": {},
@@ -114,6 +115,7 @@ code
     ]
 }
 ```
+Step 3: Click **_Run_** and chose your option
 
 ### ERROR
 module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'
