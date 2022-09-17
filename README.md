@@ -16,7 +16,7 @@ sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
 sudo apt install -f
 ```
 
-### Install pycharm
+### Install IDE (pycharm, vscode)
 _Community version_
 ```
 sudo snap install pycharm-community --classic
@@ -50,6 +50,7 @@ exit
 ```
 sudo apt-get install git
 ```
+## Config with pycharm
 ***Let turn on your pycharm on and create a project (venv environment)***
 ### Open terminal on pycharm and clone oddoo15 into pycharm's project
 ```
@@ -81,6 +82,39 @@ Last step, link __"|| project name ||/odoo/odoo-bin"__ and __"|| project name ||
 <br />
 <br />
 <br />
+
+## Config with VScode
+Step 1: open workspace folder **_odoo_** that you cloned it before
+
+
+code
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python:Odoo15",
+            "type":"python",
+            "request":"launch",
+            "stopOnEntry": false,
+            "python":"${command:python.interpreterPath}",
+            "console":"integratedTerminal",
+            "program":"/opt/odoo/odoo-bin",
+            "args": [
+               "--config=/opt/odoo/odoo.conf",
+            ],
+            // "cwd":"${workspaceRoot}",
+            "env": {},
+            // "envFile":"${workspaceRoot}/.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
+```
+
 ### ERROR
 module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'
 ```
