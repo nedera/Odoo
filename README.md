@@ -1,4 +1,4 @@
-# Install odoo (v15) on a new Ubuntu environment and config with pycharm 
+# Install odoo (v15) on a new Ubuntu environment and config with pycharm and vscode
 I recommend using Pyhton 3.8 and ubuntu 20.04 for ignore the errors (but not all of errors). 
 ### Install Python 3 and its Dependencies
 ```
@@ -25,9 +25,9 @@ _Professional version_
 ```
 sudo snap install pycharm-professional --classic
 ```
-_Educational version_
+_Visual Studio Code_
 ```
-sudo snap install pycharm-educational --classic
+sudo snap install --classic code
 ```
 
 ### Install PostgreSQL and create a database
