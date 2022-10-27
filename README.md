@@ -11,9 +11,8 @@ sudo apt install python3-pip  wget python3-dev python3-venv python3-wheel libxml
 ```
 ### Install Wkhtmltopdf
 ```
-sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
-sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
-sudo apt install -f
+sudo apt install wkhtmltopdf
+wkhtmltopdf -V
 ```
 
 ### Install IDE (pycharm, vscode)
